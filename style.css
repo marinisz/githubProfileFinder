@@ -73,6 +73,7 @@ img.avatar{
 }
 .dados p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right:30px ;
 }
 
 .dados a{
@@ -83,10 +84,12 @@ img.avatar{
 {
   .cabecalho{
       display: flex;
-      flex-direction: column;
+  }
+  .cabecalho h1{
+      font-size: 2rem !important;
   }
   .cabecalho img.githubLogo{
-      width: 40vw;
+      width: 30vw;
   }
   #resultado{
       display: flex;
