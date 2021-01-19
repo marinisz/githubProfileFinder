@@ -58,6 +58,8 @@ div#resultado{
     margin: 40px;
     display: flex;
     align-items: center;
+    border-radius: 10pc;
+    background-color: rgb(204, 199, 199);
 }
 img.avatar{
     border-radius: 100%;
@@ -77,4 +79,19 @@ img.avatar{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media  
+@media (max-width: 600px)
+{
+  .cabecalho{
+      display: flex;
+      flex-direction: column;
+  }
+  .cabecalho img.githubLogo{
+      width: 40vw;
+  }
+  #resultado{
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      height: 600px;
+  }
+}
