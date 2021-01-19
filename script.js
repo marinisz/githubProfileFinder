@@ -15,6 +15,7 @@ place.addEventListener('submit',function(e){
         <div class="dados"><h1>${data.name}</h1>
         <p>${data.bio}</p>
         <a href="${"https://github.com/"+originalName}">${"https://github.com/"+originalName}</a>
+        
     `
     })
 

@@ -91,7 +91,12 @@ img.avatar{
   #resultado{
       display: flex;
       flex-direction: column;
-      border-radius: 10px;
-      height: 600px;
+  }
+  form#myform{
+      height: 12vh;
+      width: 100%;
+  }
+  input{
+      font-size: large;
   }
 }
